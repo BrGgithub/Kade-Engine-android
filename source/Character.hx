@@ -139,7 +139,7 @@ class Character extends FlxSprite
 				addOffset("singDOWN", 0, -30);
 
 				playAnim('idle');
-				case 'trickymask':
+			case 'trickymask':
 				tex = Paths.getSparrowAtlas('characters/TrickyMask', 'shared');
 				frames = tex;
 				animation.addByPrefix('idle', 'Idle', 24);
